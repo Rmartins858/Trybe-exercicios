@@ -1,0 +1,42 @@
+h3{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+div:nth-of-type(3){
+  font-size: 25px;
+  width: 250px;
+}
+
+div{
+    text-align: center;
+    width: 180px;
+}
+div:hover{
+    border: 3px solid black;
+    width:px;
+
+}
+div:first-of-type{
+    background-color: yellow
+}
+
+div:last-of-type{
+    background-color:aqua
+}
+
+div:nth-of-type(2){
+    background-color: green;
+}
+
+div:nth-of-type(3){
+    background-color: blue;
+}
+
+div:nth-of-type(4){
+    background-color: brown;
+}
+
+
+
+
