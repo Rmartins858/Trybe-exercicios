@@ -1,0 +1,53 @@
+
+ol li{
+    background-color: yellow;
+    font-weight: 700;
+}
+
+
+li:hover{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.laranja:first-of-type{
+    color: orange;
+}
+.verde:first-of-type{
+    color: green;
+}
+
+.preta:first-of-type{
+    color: black;
+}
+
+.amarela:first-of-type{
+    color: yellow;
+}
+
+
+ol li:nth-child(2n){
+    color: green;
+}
+
+ol li:nth-child(2n+1){
+    text-transform: uppercase;
+}
+
+h3{
+color: red;
+}
+
+.font{
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+.azul{
+    color: blue;
+}
+
+.rosa{
+    background-color: pink;
+}
+
