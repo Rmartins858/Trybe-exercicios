@@ -74,11 +74,23 @@
       //Quarto requisito
       function correcao (){
         let titulo = document.getElementsByClassName("title");
-        for (let i = 0; i < titulo.length; i =+1 ){
+        for (let i = 0; i < titulo.length; i += 1 ){
           titulo[i].innerHTML = 'Exercício 5.1 - JavaEscripit'
         }
       }
       correcao();
+
+      // Quinto requisito
+
+      function maiusculo (){
+        let caixaAlta =  document.getElementsByTagName('p');
+        for(let i = 0; i < caixaAlta.length; i += 1){
+          caixaAlta[i].style.textTransform = 'uppercase'
+          }
+
+      }
+
+      maiusculo();
     
       /*
              Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
