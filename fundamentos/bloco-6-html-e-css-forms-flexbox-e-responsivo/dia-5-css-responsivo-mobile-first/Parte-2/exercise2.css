@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: #c9c8b6;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+@media screen and (min-width: 390px) {
+  header {
+    background-color: #131e2a;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: #6da1d2;
+  }
+  header nav ul {
+    display: none;
+  }
+  aside {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  article {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
