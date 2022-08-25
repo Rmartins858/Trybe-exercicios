@@ -1,11 +1,9 @@
-
 const pesoKg = 100;
 const alturaCm = 185; 
 
-
 function calculadoraIMC(peso, altura){
     console.log(`Altura: ${altura}, peso: ${peso}`);
-
+    
     const alturaEmmetros = altura / 100;
     const pesoAoQUadrado = alturaEmmetros ** 2;
 
